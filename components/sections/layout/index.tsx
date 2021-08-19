@@ -20,7 +20,7 @@ export const Layout = ({children}: Props) => {
   return (
     <>
       {error && <ErrorModal error={error} onHandleClose={handleCloseErrorModal} />}
-      <Header />
+      <Header title="Template" logoSrc="vercel.svg" />
       <Container>
         {children}
       </Container>
